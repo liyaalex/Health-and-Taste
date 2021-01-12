@@ -1,0 +1,148 @@
+/*<!---DEEKSHA DEEKSHA-->*/
+/*index page*/
+.info-list-li a
+{
+    display: none;
+}
+#logo h1
+{
+    display: none;
+}
+.nav-li
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#content1
+{
+    height:1200px;
+}
+#content2
+{
+    height: 1450px;
+    display: block;
+    padding: 0;
+}
+.subcontent
+{
+    margin-left: 0px;
+}
+.left
+{
+    border-top:none;
+    margin: 60px 0px 90px 0px;
+}
+.right
+{
+    display: none;
+}
+
+/*<!---LIYA ALEX-->*/
+/*recipe page*/
+#recipes_content
+{
+    display: grid;
+    grid-template-areas:
+    "rec1"
+    "rec2"
+    "rec3"
+    "rec4"
+    "rec5"
+    "rec6";
+  
+}
+
+/*Contact_page*/
+
+#content1_contact
+{
+    background-color:rgb(212, 204, 204);
+    height: 450px;
+    border:30px solid brown;
+       
+}
+#content1_contact>h1{
+    color: black;
+    padding-left: 115px;
+}
+
+#content1_contact>p{
+   font-size: 1.1em;
+    padding-left:40px;
+}
+#content1_contact>fieldset
+{
+    margin-left: 30px;
+    border:0;
+}
+
+input{
+
+    margin-top:8%;
+    border:none;
+    border-bottom: 2px solid rgb(241, 141, 141);
+    width: 347px;
+   color: 0px;   
+}
+button{
+    margin-top: 7%;
+}
+
+/*<!---KRISHNA JAYAKUMAR-->*/
+/*diet page*/
+#keto{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+}
+#keto>ul{
+        display:grid;
+        grid-template-columns:auto auto;
+        row-gap: 10px;
+        column-gap: 10px;
+        padding: 20px;
+}
+keto>ul>li>div>h2{
+    position: absolute;
+}
+/*bottom grid services*/
+#parentGrid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-size: 1.7em;
+}
+
+
+/*About page*/
+#aboutus>p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+iframe{
+    width: 60%;
+    height: 40%;
+    justify-content: center;
+    margin-right: 150px;
+    margin-left: 70px;
+}
+.mapouter{
+  
+}
+#rateus{
+    width: 120px;
+    height: 100px;
+    margin-top: 70px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rate{
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+}
+
